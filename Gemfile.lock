@@ -1,0 +1,26 @@
+PATH
+  remote: .
+  specs:
+    play_market (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.1.3)
+    rake (10.1.0)
+    rspec (2.12.0)
+      rspec-core (~> 2.12.0)
+      rspec-expectations (~> 2.12.0)
+      rspec-mocks (~> 2.12.0)
+    rspec-core (2.12.1)
+    rspec-expectations (2.12.0)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.12.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  play_market!
+  rake
+  rspec
