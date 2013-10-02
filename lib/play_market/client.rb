@@ -1,5 +1,6 @@
 require 'openssl'
 require 'base64'
+require 'json'
 
 module PlayMarket
   class VerificationError < StandardError ; end
@@ -11,6 +12,7 @@ module PlayMarket
 
     def verify!(data, signature)
       key.verify(digest, Base64.decode64(signature), data) or raise VerificationError, "The receipt could not be authenticated."
+      PlayMarket::Receipt.new(JSON.parse(data))
     end
 
     private
