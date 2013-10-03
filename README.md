@@ -1,4 +1,5 @@
 # Play Market
+[![Code Climate](https://codeclimate.com/github/nvieirafelipe/play-market.png)](https://codeclimate.com/github/nvieirafelipe/play-market)
 
 Play market is a gem for verify Google Play In-App purchase receipts.
 
