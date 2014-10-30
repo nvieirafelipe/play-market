@@ -9,7 +9,7 @@ Play market is a gem for verify Google Play In-App purchase receipts.
 
 ## Usage
 
-    require 'venice'
+    require 'play_market'
 
     data = "(Receipt Data)"
     if PlayMarket::Receipt.verify(data)
